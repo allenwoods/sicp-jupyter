@@ -18,7 +18,7 @@ if __name__ == "__main__":
             nb = json.load(nb)
         for cell in nb['cells']:
             if cell['cell_type'] == 'code':
-                cell['source'] = clean_lines(cell['source'], ">>>\ .*?")
+                cell['source'] = clean_lines(cell['source'], ">>>(\s*)(\t*).*?")
         with open(revised_dir/nb_file, 'w', encoding='utf8') as new_nb:
             json.dump(nb, new_nb)
 
