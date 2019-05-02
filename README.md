@@ -1,5 +1,7 @@
 # sicp-jupyter
-Jupyter-notebook版本的SICP. 根据[SICP-python-zh](https://github.com/wizardforcel/sicp-py-zh)改编
+Jupyter-notebook版本的SICP. 根据[SICP-python-zh](https://github.com/wizardforcel/sicp-py-zh)改编。
+
+部分函数执行过程依赖[tutormagic](https://github.com/kikocorreoso/tutormagic)进行展示，请首先安装该库。
 
 ## 目录
 
